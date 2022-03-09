@@ -1,11 +1,24 @@
+*{
+    padding: 0px;
+    margin: 1px;
+}
 
+#HomePage {
+
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+}
 
 nav {
-    
+    display: block;
+    position: fixed;
+    width: 100%;
+    text-align: center;
     margin: auto;
     padding: 5px;
     white-space: nowrap;
-     max width: 100%;
     background-color: 	hsl(0, 0%, 17%);   
     color: 	hsl(0, 0%, 78%);
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -17,11 +30,16 @@ header ul {
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
-    align-content: right;
+    
+}
+
+:first-child
+{
+    margin-right: 20%;
 }
 
 li + li {
-    margin-left: 24px;
+    margin-left: 5%;
 }
 
 a {
@@ -30,6 +48,15 @@ a {
     font-weight: 700;
 }
 
-#HardRock {
-margin-right: 50%;
-    
+
+
+
+
+
+
+#bigphoto{
+align-content: center;
+object-fit: fill;
+size: 80%;
+margin: 5%;
+}
