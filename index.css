@@ -1,0 +1,21 @@
+.MainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+li + li {
+    margin-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
