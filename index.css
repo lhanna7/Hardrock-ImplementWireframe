@@ -1,13 +1,23 @@
-.MainNav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+nav {
+    
+    margin: auto;
+    padding: 5px;
+    white-space: nowrap;
+     max width: 100%;
+    background-color: 	hsl(0, 0%, 17%);   
+    color: 	hsl(0, 0%, 78%);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 header ul {
     display: flex;
     flex-flow: row nowrap;
     list-style: none;
+    align-content: right;
 }
 
 li + li {
@@ -19,3 +29,7 @@ a {
     color: inherit;
     font-weight: 700;
 }
+
+#HardRock {
+margin-right: 50%;
+    
